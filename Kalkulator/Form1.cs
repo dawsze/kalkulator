@@ -84,7 +84,7 @@ namespace Kalkulator
                 default:
                     break;
             }// koniec switcha
-            wartosc = Int32.Parse(wynik.Text);
+            wartosc = Double.Parse(wynik.Text);
             operacja = "";
         }
 
